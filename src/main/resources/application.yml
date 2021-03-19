@@ -1,0 +1,17 @@
+
+security:
+    require-ssl: true 
+
+server:  
+    connection-timeout: -1 
+    context-path: /
+    port: 4001
+    ssl:
+        key-store-type: PKCS12
+        key-store: /home/admin2/keystore/keystore.p12
+        key-store-password: 456852
+        key-alias: tomcat
+
+
+
+
